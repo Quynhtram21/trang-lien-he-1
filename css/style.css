@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	background-color: #E5E5E5;font-family: "Roboto", sans-serif; font-size: 16px; color: #666666; margin: 0 auto
+}
+header{
+    width: 100%; height: 30px; background-color: #276880
+}
+banner{
+	width: 100%; height:80px;background-color: white; padding-top: 20px
+}
+menu{
+	width: 100%; height:60px;background-color: #F8F9FA
+}
+slide{
+	width: 100%;background-color: #F8F9FA
+}
+#khong-gian{
+	width: 100%; height: 1050px; padding-top: 20px; padding-bottom: 20px
+}
+.img-100{
+    width: 100%;height: auto
+}
+main{
+	width: 100%;min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid darkblue
+}
+.text-do{
+	color: darkred
+}
+.text-footer{
+	color: white
+}
+.text-trang{
+	color: white; font-size: 12px; padding-top: 5px
+}
+.text-xam{
+	color: #7D7D7D
+}
+#feature{
+	color: #EE11BB ;border: 1px solid darkblue;padding: 10px; border-radius: 5px;position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 40px; position: absolute; left: 10%; top: -15%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: darkred; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: white
+}
+.icon a:hover{
+	background-color: white; color: darkred
+}
+.text-vang{
+	color: #E4BB2F
+}
+.pt-30{
+	padding-bottom: 30px
+}
+.vien-trang{
+	width: 100%; border: 1px solid white; text-align: center; padding: 20px
+}
+.vien-trang a{
+	text-decoration: none; color: darkred; cursor: pointer
+}
+.vien-trang a:hover{
+	color: white
+}
+.shadow{
+	border: 1px solid gray; width: 100%; min-height: 300px;box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%
+}
+.text-den{
+	color: #201E1E
+}
+.text-lon{
+	color: #292929; font-size: 25px
+}
+.top-bar, .bottom-bar{
+	width: 100%; height: 100px; line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #945336
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #945336; padding-bottom: 0; padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113
+}
+#cam-nhan .noi-dung{
+	text-align: center; padding: 10px 30px; display: flex; flex-direction: column; justify-content: center; align-items: center
+}
+#cam-nhan .noi-dung img{
+	width: 50%; height: 50%
+}
+#cn .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #666666
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FFC113;
+      text-decoration: none; }
+footer{
+	width: 100%; min-height: 500px; padding-top: 20px
+}
+.gach-chan{
+	border-bottom: 2px solid #F2C94C
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+aside{
+	width: 100%; padding: 10px; min-height: 100px; padding-bottom: 5px
+}
+.content{
+	width: 100%; padding: 10px;min-height: 200px; margin-left: 20px
+}
+aside ul{
+	margin: 0; padding: 10px; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	text-decoration: none; padding: 10px; display: block; color: white
+}
+aside ul li a:hover{
+	background-color: antiquewhite; color: blue
+}
+aside ul li{
+	border-bottom: 1px solid antiquewhite 
+}
+.ground-gray{
+	background-color: #CACACA; border-radius: 10px; color: antiquewhite
+}
